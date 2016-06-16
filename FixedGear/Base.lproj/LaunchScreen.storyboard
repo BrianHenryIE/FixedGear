@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="FixedGear" translatesAutoresizingMaskIntoConstraints="NO" id="k4U-VZ-R2t">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FixedGear" translatesAutoresizingMaskIntoConstraints="NO" id="k4U-VZ-R2t">
+                                <rect key="frame" x="40" y="40" width="520" height="520"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="k4U-VZ-R2t" secondAttribute="height" multiplier="1:1" id="JFA-F1-KUy"/>
                                 </constraints>
@@ -40,6 +40,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="FixedGear" width="400" height="371"/>
+        <image name="FixedGear" width="400" height="400"/>
     </resources>
 </document>
